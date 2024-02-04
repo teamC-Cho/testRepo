@@ -1,0 +1,32 @@
+Source : libipmioemmfp
+Version :   6.8.0.0.0
+SPX-Version : 4.0
+SPX-Format : 2.0
+Owner : AMI
+Maintainer : Changjun Kang (changjunk@ami.com)
+License : AMI
+Source-Location : AMI
+Source-Version : 1.0.0
+Builds : libipmioemmfp
+Build-Depends : global_dev, ipmi_dev, ipmipdk_dev, libfeaturedefine_dev, libsafesystem_dev, mfp_dev, rules
+Architecture : ALL
+Urgency :   high
+Description : IPMI Command for Memory Failure Prediction
+.
+
+#---------------------------------------------------------------------------
+# Binary Packages follows
+# Binary package takes the following fields from source pacakage:
+# Version, SPX-Version, SPX-Format, Owner, Maintainer,License,
+# Architecture,SOC,BOARD,OEM,Urgency
+# Provides,Depends,Required ?
+# ---------------------------------------------------------------------------
+
+Package : libipmioemmfp
+Section : lib
+Group : IPMI
+Essential : NO
+Depends : ipmimain, libunix
+Description : IPMI Command for MFP
+.
+

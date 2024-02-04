@@ -1,0 +1,41 @@
+Source : libspx_restservice_mfp
+Version :   6.2.0.0.0
+SPX-Version : 4.0
+SPX-Format : 2.0
+Owner : AMI
+Maintainer : Sivaprabu Ganesan (sivaprabug@amiindia.co.in)
+License : AMI
+Source-Location : AMI
+Source-Version : 1.0.0
+Builds : libspx_restservice_mfp, libspx_restservice_mfp_dev
+Build-Depends : ipmi_dev, libunix_dev, rules, libtoken_dev, global_dev, libfcgi_dev, libfeaturedefine_dev, libraphters_dev, libsession_dev, webifc_dev, libsyslogconf_dev, libracsessioninfo_dev, libipmiparams_dev, libi2c_dev, libspx_restservice_dev
+Architecture : ALL
+Urgency :   high
+Description : spx rest service with MFP related API's
+.
+
+#---------------------------------------------------------------------------
+# Binary Packages follows
+# Binary package takes the following fields from source pacakage:
+# Version, SPX-Version, SPX-Format, Owner, Maintainer,License,
+# Architecture,SOC,BOARD,OEM,Urgency
+# Provides,Depends,Required ?
+# ---------------------------------------------------------------------------
+
+Package : libspx_restservice_mfp
+Section : lib
+Group : LIBRARY
+Essential : YES
+Feature-Required : CONFIG_SPX_FEATURE_MFP
+Required : libraphters, libfcgi, libqdecoder, libsession, libdbgout, libracsessioninfo, librtlog, libspx_restservice, libipmioemmfp,mfp
+Description : REST Web service implemented as FastCGI. Supports Lighttpd
+.
+
+Package : libspx_restservice_mfp_dev
+Section : dev
+License : AMI
+Group : LIBRARY
+Essential : NO
+Description : Package Description.
+.
+

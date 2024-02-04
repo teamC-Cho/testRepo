@@ -1,0 +1,135 @@
+Package: mfp (6.15.0.0.0); urgency = high
+
+Abstract:
+	Revert "Merge branch 'v12-update-6.00_MFP2_1-reverted' into 'LTS-v12'"
+
+This reverts merge request !68 (jcchiu@ami.com)
+
+Files Added: data/AddressDecode.c, data/AddressDecodeLib.h, data/bios.c, data/bios.h
+Files Modified: data/IPMI_MFP.h, data/MFPCmds.c, data/Makefile, data/mfp.c, data/mfp_ami.h, spx/INFO
+
+--Submitter: jcchiu (jcchiu)() 2022-05-30T03:41:28+00:00
+
+Package: mfp (6.14.0.0.0); urgency = high
+
+Abstract:
+	v12-update-6.00_MFP2_1-reverted (jcchiu@ami.com)
+	v12-update-6.00_MFP2_1-reverted (jcchiu@ami.com)
+	v12-update-6.00_MFP2_1-reverted (jcchiu@ami.com)
+	v12-update-6.00_MFP2_1-reverted (jcchiu@ami.com)
+
+Files Modified: data/IPMI_MFP.h, data/MFP.c, data/MFPCmds.c, data/MFPMetaInfo.c, data/Makefile, data/Makefile, data/mfp.c, data/mfp_ami.h, data/mfp_report, data/IPMI_MFP.h, data/MFP.c, data/MFPCmds.c, data/MFPMetaInfo.c, data/Makefile, data/mfp.c, data/mfp_ami.h, data/mfp_report, spx/INFO, spx/INFO
+Files Removed: data/AddressDecode.c, data/AddressDecodeLib.h, data/bios.c, data/bios.h
+
+--Submitter: jcchiu (jcchiu)() 2022-05-28T09:08:06+00:00
+
+Package: mfp (6.13.0.0.0); urgency = high
+
+Abstract:
+	MRT 2.1 (changjunk@ami.com)
+
+Files Added: data/AddressDecode.c, data/AddressDecodeLib.h, data/bios.c, data/bios.h
+Files Modified: data/IPMI_MFP.h, data/MFPCmds.c, data/Makefile, data/mfp.c, data/mfp_ami.h, spx/INFO
+
+--Submitter: jcchiu (jcchiu)() 2022-05-28T05:09:49+00:00
+
+Package: mfp (6.6.3.0.0); urgency = high
+
+Abstract:
+	fix python 3 issue (DerekHuang@ami.com)
+
+Files Modified: spx/PACKAGES.D/libipmioemmfp/SCRIPTS/dev-install.py, spx/RULES.py, spx/PACKAGES.D/libspx_restservice_mfp/SCRIPTS/dev-install.py, spx/PACKAGES.D/libspx_restservice_mfp_dev/SCRIPTS/dev-install.py, spx/RULES.py, spx/PACKAGES.D/mfp_dev/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: jcchiu (jcchiu)() 2021-10-06T13:44:36+00:00
+
+Package: mfp (6.6.2.0.0); urgency = high
+
+Abstract:
+	udpate last err time stamp only when an error occurs (changjunk@kang.us.megatrends.com)
+
+Files Modified: data/mfp.c
+
+--Submitter: jcchiu (jcchiu)() 2021-09-03T01:31:31+00:00
+
+Package: mfp (6.6.1.0.0); urgency = high
+
+Abstract:
+	MFP Migration Master -> LTS-v12 (johnw@ami.com)
+
+Files Modified: data/MFPCmds.c, data/Makefile, data/Makefile, data/Makefile, data/mfp.c, data/mfp_ami.h, spx/INFO, spx/PACKAGES.D/mfp/SCRIPTS/dev-install.py, spx/PACKAGES.D/mfp_dev/SCRIPTS/dev-install.py, spx/RULES.py
+Files Removed: data/libmfp.so.0.8, data/mfp.h
+
+--Submitter: jcchiu (jcchiu)() 2021-08-06T23:16:19+00:00
+
+Package: mfp (6.6.0.0.0); urgency = low
+
+Abstract:
+	delay mfp start (changjunk@kang.us.megatrends.com)
+
+Files Modified: data/mfp.sh
+
+--Submitter: Prakash Shanmugakani (prakashs)() 2020-12-08T14:29:13-05:00
+
+Package: mfp (6.5.0.0.0); urgency = low
+
+Abstract:
+	fix EIP 579318 (changjunk@ami.com)
+
+Files Modified: data/mfp.c
+
+--Submitter: Prakash Shanmugakani (prakashs)() 2020-12-01T13:28:33-05:00
+
+Package: mfp (6.4.0.0.0); urgency = low
+
+Abstract:
+	update dimm info on every boot (changjunk@kang.us.megatrends.com)
+
+Files Modified: data/mfp.c
+
+--Submitter: Prakash Shanmugakani (prakashs)() 2020-11-24T12:06:04-05:00
+
+Package: mfp (6.3.0.0.0); urgency = low
+
+Abstract:
+	update mfp redfish report in mfp module (changjunk@ami.com)
+
+Files Modified: data/mfp.c
+
+--Submitter: Prakash Shanmugakani (prakashs)() 2020-11-18T14:14:10-05:00
+
+Package: mfp (6.2.0.0.0); urgency = low
+
+Abstract:
+	update intel ipmi command (changjunk@kang.us.megatrends.com)
+
+Files Added: data/mfp_report
+Files Modified: data/IPMI_MFP.h, data/mfp.c, spx/PACKAGES.D/mfp/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: Prakash Shanmugakani (prakashs)() 2020-10-26T11:14:32-04:00
+
+Package: mfp (6.1.0.0.0); urgency = low
+
+Abstract:
+	add dimm id in report (changjunk@kang.us.megatrends.com)
+
+Files Modified: data/mfp.c, data/mfp_ami.h
+
+--Submitter: Winston Thangapandian (winstont)() 2020-09-24T19:46:39-04:00
+
+Package: mfp (6.0.0.0.0); urgency = high
+
+Abstract:
+	rerecommit mfp part2 (changjunk@kang.us.megatrends.com)
+
+Files Added: spx/PACKAGES.D/libipmioemmfp/DATA/keep.folder, spx/PACKAGES.D/libipmioemmfp/P.CONFIG, spx/PACKAGES.D/libipmioemmfp/SCRIPTS/dev-install.py, data/Makefile, data/libmfp.so.0.8, data/mfp.c, data/mfp.h, data/mfp.sh, data/mfp_ami.h, spx/CHANGELOG, spx/FILES, spx/INFO, spx/LICENSES/LICENSE.AMI, spx/PACKAGES.D/mfp/DATA/keep.folder, spx/PACKAGES.D/mfp/SCRIPTS/dev-install.py, spx/PACKAGES.D/mfp_dev/DATA/keep.folder, spx/PACKAGES.D/mfp_dev/SCRIPTS/dev-install.py, spx/RULES.py
+Files Modified: data/MFP.c, data/MFPCmds.c, data/MFPMetaInfo.c, data/Makefile, spx/INFO, spx/P.CONFIG, spx/RULES.py
+
+--Submitter: Winston Thangapandian (winstont)() 2020-09-03T18:08:54-04:00
+
+Package:mfp (1.0.0.0.0);urgency=new
+
+Abstract:
+	Memory Failure Prediciton Application
+
+--Submitter: Changjun Kang (changjunk@ami.com) Mon, 3 Aug 2020 15:16:07 -0400
+

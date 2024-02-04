@@ -1,0 +1,43 @@
+Package: libspx_restservice_mfp (6.1.2.0.0); urgency = high
+
+Abstract:
+	fix python 3 issue (DerekHuang@ami.com)
+
+Files Modified: spx/PACKAGES.D/libspx_restservice_mfp/SCRIPTS/dev-install.py, spx/PACKAGES.D/libspx_restservice_mfp_dev/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: jcchiu (jcchiu)() 2021-10-06T13:44:36+00:00
+
+Package: libspx_restservice_mfp (6.1.1.0.0); urgency = high
+
+Abstract:
+	MFP Migration Master -> LTS-v12 (johnw@ami.com)
+
+Files Modified: data/Makefile
+
+--Submitter: jcchiu (jcchiu)() 2021-08-06T23:16:19+00:00
+
+Package: libspx_restservice_mfp (6.1.0.0.0); urgency = low
+
+Abstract:
+	Made the required changes in python script to build the spx-12 code base in Python3 environment (prakashs@ami.com)
+
+Files Modified: spx/PACKAGES.D/libspx_restservice_mfp/SCRIPTS/dev-install.py
+
+--Submitter: Winston Thangapandian (winstont)() 2020-11-13T00:57:55-05:00
+
+Package: libspx_restservice_mfp (6.0.0.0.0); urgency = low
+
+Abstract:
+	Implementing memory failure prediction feature rest (sivaprabug@amiindia.co.in)
+
+Files Added: data/Makefile, data/settings_mfp_management.c, data/spx_rest_mfp.c, data/spx_rest_mfp.h, spx/CHANGELOG, spx/DOCS/DO_NOT_DELETE_AMI_INTERNAL_USAGE, spx/FILES, spx/INFO, spx/LICENSES/LICENSE.AMI, spx/P.CONFIG, spx/PACKAGES.D/libspx_restservice_mfp/DATA/keep.folder, spx/PACKAGES.D/libspx_restservice_mfp/P.CONFIG, spx/PACKAGES.D/libspx_restservice_mfp/SCRIPTS/dev-install.py, spx/PACKAGES.D/libspx_restservice_mfp_dev/DATA/keep.folder, spx/PACKAGES.D/libspx_restservice_mfp_dev/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: KiranKumar Ballapalli (kirankumarb)() 2020-10-06T13:21:30-04:00
+
+Package:libspx_restservice_mfp (1.0.0.0.0);urgency=new
+
+Abstract:
+	spx rest service with MFP related API's
+
+--Submitter: Sivaprabu Ganesan (sivaprabug@amiindia.co.in) Fri, 25 Sep 2020 14:15:23 +0530
+

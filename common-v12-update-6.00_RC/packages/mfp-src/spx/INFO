@@ -1,0 +1,41 @@
+Source : mfp
+Version :   6.15.0.0.0
+SPX-Version : 4.0
+SPX-Format : 2.0
+Owner : AMI
+Maintainer : Changjun Kang (changjunk@ami.com)
+License : AMI
+Source-Location : AMI
+Source-Version : 1.0.0
+Builds : mfp, mfp_dev
+Build-Depends : libprocmanager_dev, libunix_dev, libfeaturedefine_dev, global_dev, libhiredis, mfp_intel, libmfperrcollect_dev, libgpio_dev
+Architecture : ALL
+Urgency :   high
+Description : Memory Failure Prediciton Application
+.
+
+#---------------------------------------------------------------------------
+# Binary Packages follows
+# Binary package takes the following fields from source pacakage:
+# Version, SPX-Version, SPX-Format, Owner, Maintainer,License,
+# Architecture,SOC,BOARD,OEM,Urgency
+# Provides,Depends,Required ?
+# ---------------------------------------------------------------------------
+
+Package : mfp
+Config-Tag : Memory Failure Prediction
+Section : app
+Group : FEATURES
+Essential : NO
+Depends : libunix
+Required : libipmioemmfp, libipmiamioemmfpvalid, libipmiamioemmfpfault
+Description : Package Description.
+.
+
+Package : mfp_dev
+Section : dev
+Group : DEVEL
+Essential : NO
+Description : Package Description.
+.
+

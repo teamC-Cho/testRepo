@@ -1,0 +1,32 @@
+Source : libipmiamioemmfpfault
+Version :   6.0.0.0.0
+SPX-Version : 4.0
+SPX-Format : 2.0
+Owner : AMI
+Maintainer : Chang Lee (changl@ami.com)
+License : AMI
+Source-Location : AMI
+Source-Version : 1.0.0
+Builds : libipmiamioemmfpfault
+Build-Depends : global_dev, libgpio_dev, ipmi_dev, Crosscc, rules, libunix_dev
+Architecture : ALL
+Urgency :   high
+Description : Memory fault information for page-offlining at BIOS
+.
+
+#---------------------------------------------------------------------------
+# Binary Packages follows
+# Binary package takes the following fields from source pacakage:
+# Version, SPX-Version, SPX-Format, Owner, Maintainer,License,
+# Architecture,SOC,BOARD,OEM,Urgency
+# Provides,Depends,Required ?
+# ---------------------------------------------------------------------------
+
+Package : libipmiamioemmfpfault
+Section : lib
+Group : IPMI
+Essential : YES
+Feature-Required : CONFIG_SPX_FEATURE_MFP_2_1
+Description : Package Description.
+.
+

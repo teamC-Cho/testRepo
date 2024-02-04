@@ -1,0 +1,27 @@
+Package: libscigen (6.0.0.0.0); urgency = high
+
+Abstract:
+	Revert "Merge branch 'v12-update-6.00_MFP2_1-reverted' into 'LTS-v12'"
+
+This reverts merge request !68 (jcchiu@ami.com)
+
+Files Added: data/Makefile, data/scigen.c, spx/CHANGELOG, spx/FILES, spx/INFO, spx/LICENSES/LICENSE.AMI, spx/PACKAGES.D/libscigen/DATA/keep.folder, spx/PACKAGES.D/libscigen/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: jcchiu (jcchiu)() 2022-05-30T03:41:28+00:00
+
+Package: libscigen (6.0.0.0.0); urgency = high
+
+Abstract:
+	MRT 2.1 (changjunk@ami.com)
+
+Files Added: data/Makefile, data/scigen.c, spx/CHANGELOG, spx/FILES, spx/INFO, spx/LICENSES/LICENSE.AMI, spx/PACKAGES.D/libscigen/DATA/keep.folder, spx/PACKAGES.D/libscigen/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: jcchiu (jcchiu)() 2022-05-28T05:09:49+00:00
+
+Package:libscigen (1.0.0.0.0);urgency=new
+
+Abstract:
+	SCI Generation PDK
+
+--Submitter: Changjun Kang (changjunk@ami.com) Wed, 9 Mar 2022 22:44:04 -0500
+

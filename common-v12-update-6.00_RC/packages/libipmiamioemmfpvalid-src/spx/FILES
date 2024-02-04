@@ -1,0 +1,5 @@
+./IPMI_MFPValid.h 2038 c6ff5e86a0bea355c52c9ea07f0cccd2
+./MFPValMetaInfo.c 2048 57dfc12bafdc1f2eb01e2e6600dee25a
+./MFPValidation.c 1537 0c823d4f04b2ecee68e4f187a649726b
+./MFPValidationCmds.c 7757 db703a58df5aa5f61c81972b23327bd2
+./Makefile 1304 e845c08af0e58be95b80447eff549a0c

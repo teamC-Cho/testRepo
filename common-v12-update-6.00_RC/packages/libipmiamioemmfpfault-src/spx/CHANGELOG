@@ -1,0 +1,27 @@
+Package: libipmiamioemmfpfault (6.0.0.0.0); urgency = high
+
+Abstract:
+	Revert "Merge branch 'v12-update-6.00_MFP2_1-reverted' into 'LTS-v12'"
+
+This reverts merge request !68 (jcchiu@ami.com)
+
+Files Added: data/IPMI_MFPMemFault.h, data/MFPMemFault.c, data/MFPMemFaultCmds.c, data/MFPMemFaultMetaInfo.c, data/Makefile, spx/CHANGELOG, spx/FILES, spx/INFO, spx/LICENSES/LICENSE.AMI, spx/PACKAGES.D/libipmiamioemmfpfault/DATA/keep.folder, spx/PACKAGES.D/libipmiamioemmfpfault/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: jcchiu (jcchiu)() 2022-05-30T03:41:28+00:00
+
+Package: libipmiamioemmfpfault (6.0.0.0.0); urgency = high
+
+Abstract:
+	MRT 2.1 (changjunk@ami.com)
+
+Files Added: data/IPMI_MFPMemFault.h, data/MFPMemFault.c, data/MFPMemFaultCmds.c, data/MFPMemFaultMetaInfo.c, data/Makefile, spx/CHANGELOG, spx/FILES, spx/INFO, spx/LICENSES/LICENSE.AMI, spx/PACKAGES.D/libipmiamioemmfpfault/DATA/keep.folder, spx/PACKAGES.D/libipmiamioemmfpfault/SCRIPTS/dev-install.py, spx/RULES.py
+
+--Submitter: jcchiu (jcchiu)() 2022-05-28T05:09:49+00:00
+
+Package:libipmiamioemmfpfault (1.0.0.0.0);urgency=new
+
+Abstract:
+	Memory fault information for page-offlining at BIOS
+
+--Submitter: Chang Lee (changl@ami.com) Thu, 6 Jan 2022 10:29:23 -0500
+
